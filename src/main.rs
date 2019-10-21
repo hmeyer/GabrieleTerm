@@ -7,7 +7,7 @@ fn main() {
 
     let mut k = texter::cyclo_keyboard::KeyboardState::new(&pi);
 
-    let interval = time::Duration::from_millis(100);
+    let interval = time::Duration::from_millis(10);
 
     loop {
         k.update();
